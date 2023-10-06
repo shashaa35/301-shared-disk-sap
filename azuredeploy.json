@@ -46,13 +46,14 @@
         "vmImageSku": {
             "type": "string",
             "allowedValues": [
+                "2022-Datacenter",
                 "2019-Datacenter",
                 "2016-Datacenter"
             ],
             "metadata": {
                 "description": "Version of Windows Server to be used for provisioning VMs"
             },
-            "defaultValue": "2019-Datacenter"
+            "defaultValue": "2022-Datacenter"
         },
         "existingSubnetResourceID": {
             "type": "string",
